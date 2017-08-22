@@ -14,3 +14,5 @@ RUN ldconfig
 
 RUN export OCI_LIB_DIR=/opt/oracle/instantclient
 RUN export OCI_INC_DIR=/opt/oracle/instantclient/sdk/include
+
+RUN npm install -g nodemon
